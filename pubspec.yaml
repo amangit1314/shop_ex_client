@@ -1,0 +1,39 @@
+name: shop_ex
+description: Flutter ecommerce.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  flutter_svg: ^1.1.0
+  http: ^0.13.4
+  badges: ^2.0.2
+  charts_flutter: ^0.12.0
+  shared_preferences:
+  carousel_slider:
+  dotted_border:
+  file_picker:
+  cloudinary_public:
+  flutter_rating_bar:
+  pay:
+  intl:
+  uuid: ^3.0.6
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
